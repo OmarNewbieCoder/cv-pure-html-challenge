@@ -14,6 +14,13 @@
   <title>Mohammed Hussain Omar's Personal Site</title>
   <!--Just the name of the code effectively,
       not shown in the website itself -->
+      <link rel="stylesheet" href="css/styles.css">
+      <!--static website not hosted anywhere can't tap into the file
+        using "root" aka the /css bit in the href-->
+
+  <!-- everything on your webpage is just a bunch of boxes that
+      can be styles with css and changed, like literally everything -->
+
 </head>
 
 <body>
@@ -21,17 +28,18 @@
     <tr>
       <td><img src="circle-cropped.png" alt="Mohammed Hussain Omar Profile Photo"></td>
       <td>
-      <h1>Mohammed Hussain Omar</h1>
-      <p>
-        <em>London Based Full Stack Web Developer.</em>
-        <!-- can also use
+        <h1>Mohammed Hussain Omar</h1>
+        <p>
+          <em>London Based Full Stack Web Developer.</em>
+          <!-- can also use
           <i></i> tags, but <em></em> is better to use -->
-        <!-- use <strong></strong> tag as opposed to <b></b> tag -->
-      </p>
+          <!-- use <strong></strong> tag as opposed to <b></b> tag -->
+        </p>
 
-      <p>
-        I am a web developer with a weird affinity for running and computers.
-      </p> </td>
+        <p>
+          I am a web developer with a weird affinity for running and computers.
+        </p>
+      </td>
     </tr>
   </table>
 
@@ -41,38 +49,71 @@
   <ul>
     <li> <strong><a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target=_blank>The App Brewery Complete Web Developer Bootcamp</a></strong></li>
     <li><strong><a href="https://london.aru.ac.uk/courses/bsc-hons-business-and-human-resource-management-nn16" target=_blank>Anglia Ruksin University</a></strong></li>
+    <li><strong><a href="https://www.freecodecamp.org/certification/fcc42ea2d52-0bd8-4051-85be-f084d3ae2c4d/responsive-web-design" target=_blank>FreeCodeCamp Responsive Web Design Certification</a></strong></li>
     <li>Greenwich University</li>
     <li>St Angela's Sixth Form</li>
   </ul>
-
+  <hr>
   <h3>Work Experience</h3>
-    <table border="1">
-      <!--can create table rows and table date td and tr in here.
+  <table border="0" cellspacing="10">
+    <!--can create table rows and table date td and tr in here.
       Tables, also have header, body and foot -->
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Date (eg 2021 Onwards)</td>
-          <td>Job Title</td>
-        </tr>
-        <tr>
-          <td>Date (eg 2021 Onwards)</td>
-          <td>Job Title</td>
-        </tr>
-      </tbody>
-      <tfoot>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>January 2020 - Ongoing (Till 2023)</td>
+        <td>Student Anglia Ruskin University <br>Business and Human Resource Management</td>
+      </tr>
+      <tr>
+        <td>September 2019 - January 2020</td>
+        <td>Primark Retail Assistant</td>
+      </tr>
+      <tr>
+        <td>June 2019 - October 2019</td>
+        <td>Securitas Steward</td>
+      </tr>
+      <tr>
+        <td>July 2018 - September 2018</td>
+        <td>Buckingham Palace Summer Retail Assistant</td>
+      </tr>
+    </tbody>
+    <tfoot>
 
-      </tfoot>
+    </tfoot>
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing="10" border="0">
+    <thead>
+    </thead>
+    <tbody>
+      <tr>
+        <td>HTML</td>
+        <td>&#11093 &#11093 &#11093 &#11093 &#11093</td>
+        <td>CSS</td>
+        <td>&#11093 &#11093 &#11093 &#11093</td>
+      </tr>
+      <tr>
+        <td>Javascript</td>
+        <td>&#11093 &#11093 &#11093</td>
+        <td>Bootstrap</td>
+        <td>&#11093 &#11093 &#11093</td>
+      </tr>
+    <tfoot>
 
-    </table>
-    <hr>
-  <a href="Hobbies.html">My Hobbies</a> <!-- in the same folder/we've specified
+    </tfoot>
+    </tbody>
+  </table>
+
+  <hr>
+  <a href="Hobbies.html">My Hobbies</a>
+  <!-- in the same folder/we've specified
     path of the file so now we're starting to build a website YAY!!! -->
-    <br>
-    <a href="contact-me.html">My Contact Details</a>
+  <br>
+  <a href="contact-me.html">My Contact Details</a>
 </body>
